@@ -133,27 +133,28 @@ export const projects = [
   },
   {
   id: "rag-chatbot",
-
   title: "RAG AI ChatBot",
 
   description:
-    "An AI-powered Retrieval-Augmented Generation (RAG) chatbot that allows users to upload documents and ask natural language questions. The application retrieves relevant document context before generating accurate, context-aware answers.",
+    "AI chatbot that answers questions from uploaded documents.",
 
   tech: [
     "Next.js",
     "TypeScript",
-    "Tailwind CSS",
-    "Supabase",
-    "OpenAI",
-    "LangChain"
+    "Tailwind CSS"
   ],
 
-  github: "https://github.com/Nishwan-stack/RAG-ChatBot",
+  features: [
+    "Document Upload",
+    "AI Question Answering",
+    "Semantic Search",
+    "Chat History"
+  ],
 
-  liveUrl: "#",
+  github: "https://github.com/Nishwan-stack/RAG-ChatBot"
 
-  featured: true
 },
+
   {
     id: "proj-netflix",
     title: "Netflix Clone",
