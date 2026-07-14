@@ -8,7 +8,7 @@ import { Reveal, SectionHeader } from "./Reveal";
 import { profile } from "@/lib/data";
 
 // Replace with your real Formspree endpoint: https://formspree.io/f/xxxxxxx
-const FORMSPREE_ENDPOINT = "https://formspree.io/f/your-form-id";
+const FORMSPREE_ENDPOINT = "https://formspree.io/f/xeeyoqde";
 
 type FormValues = {
   name: string;
@@ -158,7 +158,7 @@ export function Contact() {
               >
                 {status === "sent" ? (
                   <>
-                    <CheckCircle2 size={16} /> Message sent
+                    <CheckCircle2 size={16} /> Message sent successfully
                   </>
                 ) : (
                   <>
@@ -171,11 +171,7 @@ export function Contact() {
                   Something went wrong — email me directly at {profile.email}.
                 </p>
               )}
-              <p className="mt-3 text-xs text-muted">
-                Wire this form to a real Formspree ID in{" "}
-                <code className="font-mono">components/Contact.tsx</code> before
-                deploying.
-              </p>
+              
             </form>
           </Reveal>
         </div>

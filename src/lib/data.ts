@@ -39,7 +39,7 @@ export const education = [
     degree: "Higher Secondary Certificate (HSC)",
     institution: "",
     meta: "87%",
-    period: "2022 — 2023",
+    period: "2022 — 2024",
     detail: "Computer Science stream.",
   },
 ];
@@ -114,7 +114,7 @@ export const projects = [
     ],
     tech: ["React", "Node.js", "REST APIs", "Chart.js"],
     liveUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/Nishwan-stack/stockpulse",
   },
   {
     id: "proj-job",
@@ -129,23 +129,31 @@ export const projects = [
     ],
     tech: ["React", "Express.js", "MongoDB", "JWT"],
     liveUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/Nishwan-stack/job_portal",
   },
   {
-    id: "proj-hospital",
-    title: "Hospital Management System",
-    description:
-      "An operational system for clinics to manage patients, doctors, and billing without spreadsheets.",
-    features: [
-      "Patient records",
-      "Doctor scheduling",
-      "Billing",
-      "Appointment booking",
-    ],
-    tech: ["Java", "MySQL", "REST APIs"],
-    liveUrl: "#",
-    githubUrl: "#",
-  },
+  id: "rag-chatbot",
+
+  title: "RAG AI ChatBot",
+
+  description:
+    "An AI-powered Retrieval-Augmented Generation (RAG) chatbot that allows users to upload documents and ask natural language questions. The application retrieves relevant document context before generating accurate, context-aware answers.",
+
+  tech: [
+    "Next.js",
+    "TypeScript",
+    "Tailwind CSS",
+    "Supabase",
+    "OpenAI",
+    "LangChain"
+  ],
+
+  github: "https://github.com/Nishwan-stack/RAG-ChatBot",
+
+  liveUrl: "#",
+
+  featured: true
+},
   {
     id: "proj-netflix",
     title: "Netflix Clone",
@@ -159,7 +167,7 @@ export const projects = [
     ],
     tech: ["React", "Tailwind CSS", "Firebase"],
     liveUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/Nishwan-stack/streamvault",
   },
   {
     id: "proj-ai-summarizer",
@@ -174,7 +182,7 @@ export const projects = [
     ],
     tech: ["Python", "AI/NLP", "Streamlit"],
     liveUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/Nishwan-stack/Ai_Summarizer",
   },
 ];
 
